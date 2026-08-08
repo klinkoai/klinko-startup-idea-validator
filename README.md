@@ -53,6 +53,49 @@ Klinko Startup Idea Validator is an AI market research skill for early-stage eva
 - The assumptions with the highest validation risk
 - Recommended evidence to collect next
 
+## How Startup Idea Validator tests an idea
+
+Startup Idea Validator breaks a concept into claims that can be supported, contradicted, or tested. It avoids treating enthusiasm, compliments, or a polished pitch as validation.
+
+| Assumption | Evidence question | Stronger validation behavior |
+|---|---|---|
+| Audience | Is there a clearly reachable group in the stated situation? | Qualified people consistently recognize themselves in the problem |
+| Problem | Does the problem recur and create a meaningful consequence? | People already spend time, money, risk, or effort on a workaround |
+| Alternative | What do people use or do today? | Current behavior reveals dissatisfaction and switching conditions |
+| Differentiation | Does the proposed change matter in the buying context? | Prospects choose or test the distinct value, not only the category |
+| Adoption | What friction could stop use? | Users accept a realistic setup, trust, workflow, or switching cost |
+| Business model | Is there a plausible value exchange? | Commitment, pilot participation, deposit, or payment under clear terms |
+
+The output is a risk map: supported claims, unsupported claims, the assumption most likely to kill the idea, and the smallest experiment that can produce a meaningful update.
+
+## Validation versus positive feedback
+
+Positive feedback measures reaction to an explanation. Validation requires behavior that would be unlikely if the underlying claim were false. A person saying “I would use this” is weaker than showing an active workaround; joining a specific pilot is stronger; payment or repeated use under realistic conditions is stronger still.
+
+Market Opportunity Analyst compares directions before commitment. Startup Idea Validator focuses on one idea and its failure conditions. Early Adopter Finder is useful after the idea and audience are clear enough to identify people most ready for an initial test.
+
+## Evidence boundaries
+
+An AI skill cannot validate a startup idea on its own. It can organize public evidence, expose assumptions, and design falsifiable tests. It cannot substitute for customer behavior, representative research, payment, retention, regulatory review, or technical feasibility work. A “positive” result increases confidence in a defined claim; it does not prove product-market fit.
+
+## Startup Idea Validator FAQ
+
+### Can I use it with only a rough idea?
+
+Yes. Provide the problem, suspected audience, proposed alternative, geography, stage, and business-model assumption. Missing details become explicit open questions rather than silently invented facts.
+
+### What is the most important output?
+
+The highest-risk assumption and a credible way to test it. A long report is less useful than knowing which belief could invalidate the idea and what evidence would change your mind.
+
+### Does competitor activity validate the market?
+
+Competitors can show that a category and buying behavior exist, but they do not prove that your audience, differentiation, acquisition path, or economics will work. Their presence is one input, not a verdict.
+
+### When should I stop validating and start building?
+
+Build the smallest artifact required to test the next critical behavior. Avoid building a full solution while the leading risk can still be tested with an interview screen, concierge service, prototype, pilot commitment, or paid pre-order.
+
 ## Who this skill is for
 
 - Startup founders
@@ -65,7 +108,7 @@ Klinko Startup Idea Validator is an AI market research skill for early-stage eva
 - [Codex](https://openai.com/codex/)
 - [Claude Code](https://www.anthropic.com/claude-code)
 
-The workflow is complete and included in the single installable [Klinko Market Research Skill](https://github.com/klinkoai/ai-market-research-skills). This repository remains the canonical public documentation page for the Startup Idea Validator workflow.
+This Skill is complete and available through the [Klinko AI Market Research Skills repository](https://github.com/klinkoai/ai-market-research-skills). This repository is the public documentation page for Startup Idea Validator.
 
 ## Klinko access
 
@@ -76,6 +119,10 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 - [Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)
 - [Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)
 - [Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)
+
+## Research and editorial standard
+
+This documentation is maintained by [Klinko Research](https://klinko.ai/en/about/). Recommendations separate observed evidence, interpretation, uncertainty, and the next validation step. Read the public [research methodology](https://klinko.ai/en/research-methodology/) for source handling, limitations, and editorial standards.
 
 ## About Klinko
 
