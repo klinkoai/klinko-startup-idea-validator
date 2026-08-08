@@ -3,7 +3,7 @@
   <p><strong>Stress-test a startup idea against audience needs and market gaps.</strong></p>
   <p>
     <a href="https://github.com/klinkoai/ai-market-research-skills">⬇️ Install Klinko Skills</a> ·
-    <a href="https://klinko.ai/en/">🌐 Klinko</a> ·
+    <a href="https://klinko.ai/en/skills/startup-idea-validator/">🌐 Startup Idea Validator guide</a> ·
     <a href="https://home.klinko.ai">🚀 Start Market Research</a>
   </p>
 </div>
@@ -72,7 +72,7 @@ The output is a risk map: supported claims, unsupported claims, the assumption m
 
 Positive feedback measures reaction to an explanation. Validation requires behavior that would be unlikely if the underlying claim were false. A person saying “I would use this” is weaker than showing an active workaround; joining a specific pilot is stronger; payment or repeated use under realistic conditions is stronger still.
 
-Market Opportunity Analyst compares directions before commitment. Startup Idea Validator focuses on one idea and its failure conditions. Early Adopter Finder is useful after the idea and audience are clear enough to identify people most ready for an initial test.
+Market Opportunity Analyst compares directions before commitment. Startup Idea Validator focuses on one idea and its failure conditions. Audience Finder ranks the candidate segments most worth recruiting when the next test requires a clearly defined audience.
 
 ## Evidence boundaries
 
@@ -117,7 +117,7 @@ This skill uses the authenticated Klinko MCP runtime and returns decision-ready 
 ## Related Klinko skills
 
 - [Market Opportunity Analyst](https://github.com/klinkoai/klinko-market-opportunity-analyst)
-- [Early Adopter Finder](https://github.com/klinkoai/klinko-early-adopter-finder)
+- [Audience Finder](https://github.com/klinkoai/klinko-audience-finder)
 - [Customer Pain Point Analyst](https://github.com/klinkoai/klinko-customer-pain-point-analyst)
 
 ## Research and editorial standard
@@ -126,8 +126,8 @@ This documentation is maintained by [Klinko Research](https://klinko.ai/en/about
 
 ## About Klinko
 
-[Klinko](https://klinko.ai/en/) is an audience decision engine that helps teams understand communities, customer needs, market opportunities, positioning, and content direction. Explore the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
+[Klinko](https://klinko.ai/en/) is an Audience Decision Engine that helps teams understand communities, customer needs, market opportunities, positioning, and content direction. Explore the [Startup Idea Validator product guide](https://klinko.ai/en/skills/startup-idea-validator/) or the complete [Klinko AI Market Research Skills](https://github.com/klinkoai/ai-market-research-skills).
 
 ---
 
-Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 7, 2026
+Maintained by [Klinko](https://github.com/klinkoai) · Contact [business@klinko.ai](mailto:business@klinko.ai) · Last updated August 8, 2026
